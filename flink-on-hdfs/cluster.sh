@@ -1,11 +1,3 @@
------------------------- Commands to setup hdfs without kubernetes ------------------------
-
-# first, setup 3 GCP nodes, we used Ubuntu 18.04 as OS on e2-standard-4 machines (4 vCPUs, 16 GB Mem). Smaller ones might work, but can face ressource problems with heavier tasks. The nodes have to be in the same subnetwork.
-
-# configure ssh access to the VMs from local host and between the VMs. This task is described in previous assignments and skipped here
-
-# install wget, Java 8 and pdsh 
-
 # download hadoop and untar the folder
 sudo wget -P ~ https://mirrors.sonic.net/apache/hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz
 tar xzf hadoop-3.2.1.tar.gz
