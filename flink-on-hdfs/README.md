@@ -1,5 +1,6 @@
 # flink-on-hdfs
 - Setup and a WordCount application on a distributed Apache Flink installation using Apache Hadoop (HDFS).
+- The application `WordCount.java` will count the occurences of each word and sort them in descending order. The results will be written to `WordCountResults.txt`. in CSV format
 ## Requirements
 - Google Cloud Account
 - Google Cloud SDK set up
